@@ -1,0 +1,199 @@
+body {
+    background-color: #150e0d;
+}
+
+.container {
+    background-color: #663535;
+    width: 550px;
+    height: auto;
+    border-radius: 3%;
+    text-align: start;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+.header {
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 52px;
+}
+
+#lock {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #F9F1F0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;    
+    color: #F9F1F0;    
+    margin-top: 0;
+}
+
+a {
+    color: #E76D57;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #db563f;
+    font-weight: 500;
+}
+
+.highlight {
+    color: #E76D57
+}
+
+.generate-section {
+    margin-top: 23px;
+}
+
+#generate-btn {
+    width: 191px;
+    height: 42px;
+    padding: 9px 17px 9px 17px;
+    border-radius: 6px;
+    background: #E76D57;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: none;
+    color: #F9F1F0;
+    margin-left: 52px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#generate-btn:hover {
+    background: #db563f;
+}
+
+#generate-btn:active { 
+    transform: scale(0.99);
+}
+
+.password-section {
+    width: 350px;
+    height: auto;
+    margin-left: 52px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background: #150e0d7f;
+    display: flex;
+}
+
+textarea {
+    background-color: transparent;
+    border: none;
+    resize: none;
+    overflow: none;
+    outline: none;
+    height: 28px;
+}
+
+#generated-password {
+    font-family: Karla;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #F9F1F0;
+    width: 313px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+#copy-btn {
+    text-align: center;
+    margin-top: 9px;
+    border: none;
+    background-color: transparent;
+    color: #F9F1F0;
+    font-size: 18px;
+}
+
+#copy-btn:hover {
+    color: #db563f;
+}
+
+#copy-btn:active { 
+    transform: scale(0.98);
+}
+
+::selection {
+    color: #F9F1F0;
+    background: #db563f;
+}
+
+.password-strength-container {
+    margin-left: 52px;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 300;
+    color: #F9F1F0;
+    line-height: 10px;
+}
+
+.options-section {
+    width: 330px;
+    height: auto;
+    margin-left: 52px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background: #150e0d7f;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.options-section {
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 300;
+    color: #F9F1F0;
+    line-height: 30px;
+}
+
+#password-length {
+    width: 305px;
+}
+
+.slider-container {
+    padding-top: 15px;
+}
+
+#option-1, #option-2, #option-3 {
+    display: flex;
+    text-indent: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    color: #814545;
+    text-align: center;
+    font-family: Karla;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+input[type="checkbox"] {
+    accent-color: #db563f;
+}
+
+input[type="range"] {
+    accent-color: #db563f;
+}
