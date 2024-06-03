@@ -1,5 +1,10 @@
 body {
     background-color: #150e0d;
+    background-image: linear-gradient(#150e0dcc, #150e0dcc), url(images/img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
 }
 
 .container {
@@ -44,12 +49,12 @@ h2 {
 }
 
 a {
-    color: #E76D57;
+    color: #ff7c64;
     text-decoration: none;
 }
 
 a:hover {
-    color: #db563f;
+    color: #ff7c64;
     font-weight: 500;
 }
 
@@ -183,7 +188,7 @@ textarea {
     left: 0;
     bottom: 20px;
     width: 100%;
-    color: #814545;
+    color: #F9F1F0;
     text-align: center;
     font-family: Karla;
     font-size: 14px;

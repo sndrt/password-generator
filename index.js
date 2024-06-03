@@ -119,4 +119,3 @@ function copy() {
     document.execCommand("copy")
     passwordEl.textContent = "Password copied!"
 }
-// 
