@@ -49,7 +49,7 @@ Welcome to the Password Generator Web App! This project is a solo endeavor as pa
 <br>
 
 <!-- USAGE EXAMPLES -->
-# Usage
+# 💻 Usage
 1. Open the app in your browser.
 2. Set your desired password criteria using the available options.
 3. Click the "Generate Password" button to create two secure passwords.
