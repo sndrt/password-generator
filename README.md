@@ -5,26 +5,27 @@
 ![](https://i.postimg.cc/Cx8Scd0W/password-generator.gif)
 
 <!-- TABLE OF CONTENTS -->
-- [About the Project](#about-the-project)
-  * [Features](#features) 
-  * [Project Objectives](#project-objectives)
-  * [Built with](#built-with)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [About the Project](#open_file_folder-about-the-project)
+  * [Features](#zap-features) 
+  * [Project Objectives](#bulb-project-objectives)
+  * [Built with](#hammer_and_wrench-built-with)
+- [Live Demo](#rocket-live-demo)
+- [Contributing](#handshake-contributing)
+- [License](#scroll-license)
+- [Acknowledgments](#star2-acknowledgments)
 
 <br>
 
 <!-- ABOUT THE PROJECT -->
-# About the Project
+# 📂 About the Project
 Welcome to the Password Generator Web App! This project is a solo endeavor as part of the [Scrimba Frontend Developer Career Path](https://v2.scrimba.com/the-frontend-developer-career-path-c0j). It showcases the integration of HTML, CSS, and JavaScript to create a responsive and functional password generator. The design prototype for this project was created using [Figma](https://www.figma.com/).
 
-## Features
+## ⚡ Features
 - **User-Friendly Interface:** A clean and intuitive design for easy interaction.
 - **Customizable Options:** Users can specify password length and include/exclude character types (uppercase, numbers, symbols).
 - **Instant Feedback:** Dynamic password generation with real-time updates.
 
-## Project Objectives
+## 💡 Project Objectives
 - Gain hands-on experience with HTML, CSS, and JavaScript by building a real-world application
 - Use the given [Figma](https://www.figma.com/design/NEj9JDycMjF3XKXq7swoc9/Random-Password-Generator-(New-version)) to build the project.
 - Create a button that generates <ins>two random passwords</ins> when clicked
@@ -32,7 +33,7 @@ Welcome to the Password Generator Web App! This project is a solo endeavor as pa
 - Include the ability to set password length
 - Include the ability to toggle password options
 
-## Built With
+## 🛠️ Built With
 ![Static Badge](https://img.shields.io/badge/HTML-%23161b22?style=for-the-badge&logo=html5&logoColor=%23E34F26)
 ![Static Badge](https://img.shields.io/badge/CSS-%23161b22?style=for-the-badge&logo=css3&logoColor=%231572B6)
 ![Static Badge](https://img.shields.io/badge/Javascript-%23161b22?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -42,7 +43,7 @@ Welcome to the Password Generator Web App! This project is a solo endeavor as pa
 <br>
 
 <!-- LIVE DEMO -->
-# Live Demo
+# 🚀 Live Demo
 [Live Demo Link](https://github.com/lifeparticle/Markdown-Cheatsheet)
 
 <br>
@@ -57,7 +58,7 @@ Welcome to the Password Generator Web App! This project is a solo endeavor as pa
 <br>
 
 <!-- CONTRIBUTING -->
-# Contributing
+# 🤝 Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -66,13 +67,13 @@ Don't forget to give the project a star! Thanks again!
 <br>
 
 <!-- LICENSE -->
-# License
+# 📜 License
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <br>
 
 <!-- ACKNOWLEDGMENTS -->
-# Acknowledgments
+# 🌟 Acknowledgments
 * [Scrimba](https://v2.scrimba.com/)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
