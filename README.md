@@ -5,14 +5,14 @@
 ![](https://i.postimg.cc/Cx8Scd0W/password-generator.gif)
 
 <!-- TABLE OF CONTENTS -->
-- [About the Project](#open_file_folder-about-the-project)
-  * [Features](#zap-features) 
-  * [Project Objectives](#bulb-project-objectives)
-  * [Built with](#hammer_and_wrench-built-with)
-- [Live Demo](#rocket-live-demo)
-- [Contributing](#handshake-contributing)
-- [License](#scroll-license)
-- [Acknowledgments](#star2-acknowledgments)
+- [About the Project](#-about-the-project)
+  * [Features](#-features) 
+  * [Project Objectives](#-project-objectives)
+  * [Built with](#-built-with)
+- [Live Demo](#-live-demo)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 
 <br>
 
