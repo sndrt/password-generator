@@ -184,9 +184,7 @@ textarea {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 20px;
+    margin-top: 50px;
     width: 100%;
     color: #F9F1F0;
     text-align: center;
