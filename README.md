@@ -44,7 +44,7 @@ Welcome to the Password Generator Web App! This project is a solo endeavor as pa
 
 <!-- LIVE DEMO -->
 # 🚀 Live Demo
-[Live Demo Link](https://github.com/lifeparticle/Markdown-Cheatsheet)
+[Live Demo Link]([https://github.com/lifeparticle/Markdown-Cheatsheet](https://timely-taffy-7ecc32.netlify.app/))
 
 <br>
 
