@@ -8,7 +8,7 @@
 - [About the Project](#-about-the-project)
   * [Features](#-features) 
   * [Project Objectives](#-project-objectives)
-  * [Built with](#-built-with)
+  * [Built With](#-built-with)
 - [Live Demo](#-live-demo)
 - [Contributing](#-contributing)
 - [License](#-license)
