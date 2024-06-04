@@ -9,7 +9,8 @@ let passwordStrength = document.querySelector("#password-strength")
 //
 
 // Password Generator
-let passwordEl = document.querySelector("#generated-password")
+let password1El = document.querySelector("#generated-password-1")
+let password2El = document.querySelector("#generated-password-2")
 let option1 = document.querySelector("#option1")
 let option2 = document.querySelector("#option2")
 let option3 = document.querySelector("#option3")
@@ -23,99 +24,145 @@ function generatePassword() {
     if (option1.checked === true && option2.checked === true && option3.checked === true) {
         const passwordLength = document.getElementById('password-length').value 
         characters.push(...upperCase, ...numbers, ...symbols);
-        let password = "";
-
+        let password1 = "";
+        let password2 = "";
         for (let i = 0; i < passwordLength; i++) {
             const randomIndex = Math.floor(Math.random() * characters.length);
-            password += characters[randomIndex];
+            password1 += characters[randomIndex];
         }
-        passwordEl.textContent = password
+        for (let i = 0; i < passwordLength; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            password2 += characters[randomIndex];
+        }
+        password1El.textContent = password1
+        password2El.textContent = password2
         passwordStrength.textContent = "Strength: " + "💪🙆🥳💕"
     } else if (option1.checked === true && option2.checked === true && option3.checked === false) {
         const passwordLength = document.getElementById('password-length').value 
         characters.push(...upperCase, ...numbers);
-        let password = "";
-
+        let password1 = "";
+        let password2 = "";
         for (let i = 0; i < passwordLength; i++) {
             const randomIndex = Math.floor(Math.random() * characters.length);
-            password += characters[randomIndex];
+            password1 += characters[randomIndex];
         }
-        passwordEl.textContent = password
+        for (let i = 0; i < passwordLength; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            password2 += characters[randomIndex];
+        }
+        password1El.textContent = password1
+        password2El.textContent = password2
         passwordStrength.textContent = "Strength: " + "🥰👍"
     } else if (option1.checked === true && option2.checked === false && option3.checked === true) {    
         const passwordLength = document.getElementById('password-length').value 
         characters.push(...upperCase, ...symbols);
-        let password = "";
-
+        let password1 = "";
+        let password2 = "";
         for (let i = 0; i < passwordLength; i++) {
             const randomIndex = Math.floor(Math.random() * characters.length);
-            password += characters[randomIndex];
+            password1 += characters[randomIndex];
         }
-        passwordEl.textContent = password
+        for (let i = 0; i < passwordLength; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            password2 += characters[randomIndex];
+        }
+        password1El.textContent = password1
+        password2El.textContent = password2
         passwordStrength.textContent = "Strength: " + "🤩👍"
     } else if (option1.checked === true && option2.checked === false && option3.checked === false) {        
         const passwordLength = document.getElementById('password-length').value 
         characters.push(...upperCase);
-        let password = "";
-
+        let password1 = "";
+        let password2 = "";
         for (let i = 0; i < passwordLength; i++) {
             const randomIndex = Math.floor(Math.random() * characters.length);
-            password += characters[randomIndex];
+            password1 += characters[randomIndex];
         }
-        passwordEl.textContent = password
+        for (let i = 0; i < passwordLength; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            password2 += characters[randomIndex];
+        }
+        password1El.textContent = password1
+        password2El.textContent = password2
         passwordStrength.textContent = "Strength: " + "🤨👎"
     } else if (option1.checked === false && option2.checked === true && option3.checked === true) {      
         const passwordLength = document.getElementById('password-length').value 
         characters.push(...numbers, ...symbols);
-        let password = "";
-
+        let password1 = "";
+        let password2 = "";
         for (let i = 0; i < passwordLength; i++) {
             const randomIndex = Math.floor(Math.random() * characters.length);
-            password += characters[randomIndex];
+            password1 += characters[randomIndex];
         }
-        passwordEl.textContent = password
+        for (let i = 0; i < passwordLength; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            password2 += characters[randomIndex];
+        }
+        password1El.textContent = password1
+        password2El.textContent = password2
         passwordStrength.textContent = "Strength: " + "🤩👍"
     } else if (option1.checked === false && option2.checked === true && option3.checked === false) {      
         const passwordLength = document.getElementById('password-length').value 
         characters.push(...numbers);
-        let password = "";
-
+        let password1 = "";
+        let password2 = "";
         for (let i = 0; i < passwordLength; i++) {
             const randomIndex = Math.floor(Math.random() * characters.length);
-            password += characters[randomIndex];
+            password1 += characters[randomIndex];
         }
-        passwordEl.textContent = password
+        for (let i = 0; i < passwordLength; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            password2 += characters[randomIndex];
+        }
+        password1El.textContent = password1
+        password2El.textContent = password2
         passwordStrength.textContent = "Strength: " + "🤔👎"
     } else if (option1.checked === false && option2.checked === false && option3.checked === true) {               
         const passwordLength = document.getElementById('password-length').value 
         characters.push(...symbols);
-        let password = "";
-
+        let password1 = "";
+        let password2 = "";
         for (let i = 0; i < passwordLength; i++) {
             const randomIndex = Math.floor(Math.random() * characters.length);
-            password += characters[randomIndex];
+            password1 += characters[randomIndex];
         }
-        passwordEl.textContent = password
+        for (let i = 0; i < passwordLength; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            password2 += characters[randomIndex];
+        }
+        password1El.textContent = password1
+        password2El.textContent = password2
         passwordStrength.textContent = "Strength: " + "😎"
     } else {
         const passwordLength = document.getElementById('password-length').value 
-
-        let password = "";
-
+        let password1 = "";
+        let password2 = "";
         for (let i = 0; i < passwordLength; i++) {
             const randomIndex = Math.floor(Math.random() * characters.length);
-            password += characters[randomIndex];
+            password1 += characters[randomIndex];
         }
-        passwordEl.textContent = password
+        for (let i = 0; i < passwordLength; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            password2 += characters[randomIndex];
+        }
+        password1El.textContent = password1
+        password2El.textContent = password2
         passwordStrength.textContent = "Strength: " + "🤦👎💀"
     }
 }
 // 
 
-// Copy Button
-function copy() {
-    let copyText = document.querySelector("#generated-password")
+// Copy Buttons
+function copy1() {
+    let copyText = document.querySelector("#generated-password-1")
     copyText.select()
     document.execCommand("copy")
-    passwordEl.textContent = "Password copied!"
+    password1El.textContent = "Password copied!"
+}
+
+function copy2() {
+    let copyText = document.querySelector("#generated-password-2")
+    copyText.select()
+    document.execCommand("copy")
+    password2El.textContent = "Password copied!"
 }

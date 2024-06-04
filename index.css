@@ -1,20 +1,15 @@
 body {
-    background-color: #150e0d;
-    background-image: linear-gradient(#150e0dcc, #150e0dcc), url(images/img.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
+    background-color: #161b22;
 }
 
 .container {
-    background-color: #663535;
-    width: 550px;
+    background-color: #22272e;
+    width: 620px;
     height: auto;
     border-radius: 3%;
     text-align: start;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 60px;
     padding-bottom: 50px;
 }
 
@@ -39,7 +34,7 @@ h1 {
 }
 
 h2 {
-    font-family: Karla;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
@@ -49,17 +44,22 @@ h2 {
 }
 
 a {
-    color: #ff7c64;
+    color: #af88db;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff7c64;
+    color: #9266c5;
     font-weight: 500;
 }
 
 .highlight {
-    color: #E76D57
+    color: #af88db
+}
+
+.password-section {
+    display: flex;
+    margin-left: 42px;
 }
 
 .generate-section {
@@ -67,11 +67,11 @@ a:hover {
 }
 
 #generate-btn {
-    width: 191px;
+    width: 200px;
     height: 42px;
     padding: 9px 17px 9px 17px;
     border-radius: 6px;
-    background: #E76D57;
+    background: #af88db;
     box-shadow: 0px 1px 2px 0px #0000000D;
     border: none;
     color: #F9F1F0;
@@ -83,20 +83,20 @@ a:hover {
 }
 
 #generate-btn:hover {
-    background: #db563f;
+    background: #9266c5;
 }
 
 #generate-btn:active { 
     transform: scale(0.99);
 }
 
-.password-section {
-    width: 350px;
+.password-section-1, .password-section-2 {
+    width: 255px;
     height: auto;
-    margin-left: 52px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
     border-radius: 6px;
-    background: #150e0d7f;
+    background: #2d333b;
     display: flex;
 }
 
@@ -109,37 +109,37 @@ textarea {
     height: 28px;
 }
 
-#generated-password {
-    font-family: Karla;
-    font-size: 19px;
-    font-weight: 700;
+#generated-password-1, #generated-password-2 {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
     line-height: 26px;
-    color: #F9F1F0;
-    width: 313px;
+    color: #af88db;
+    width: 218px;
     text-align: center;
     margin-top: 6px;
 }
 
-#copy-btn {
+#copy-btn-1, #copy-btn-2 {
     text-align: center;
     margin-top: 9px;
     border: none;
     background-color: transparent;
-    color: #F9F1F0;
+    color: #f9f1f07e;
     font-size: 18px;
 }
 
-#copy-btn:hover {
-    color: #db563f;
+#copy-btn-1:hover, #copy-btn-2:hover {
+    color: #af88db;
 }
 
-#copy-btn:active { 
+#copy-btn-1:active, #copy-btn-2:active { 
     transform: scale(0.98);
 }
 
 ::selection {
     color: #F9F1F0;
-    background: #db563f;
+    background: #af88db;
 }
 
 .password-strength-container {
@@ -157,7 +157,7 @@ textarea {
     margin-left: 52px;
     margin-top: 20px;
     border-radius: 6px;
-    background: #150e0d7f;
+    background: #2d333b;
     padding-left: 20px;
     padding-bottom: 20px;
 }
@@ -196,9 +196,9 @@ textarea {
 }
 
 input[type="checkbox"] {
-    accent-color: #db563f;
+    accent-color: #af88db;
 }
 
 input[type="range"] {
-    accent-color: #db563f;
+    accent-color: #af88db;
 }
