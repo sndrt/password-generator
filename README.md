@@ -2,7 +2,7 @@
 ![Static Badge](https://img.shields.io/badge/%20sndrt%20-%23c195f1?style=flat)
 
 # Password Generator
-![](https://i.postimg.cc/Cx8Scd0W/password-generator.gif)
+![](https://i.postimg.cc/Cx8Scd0W/passw-ord-generator.gif)
 
 <!-- TABLE OF CONTENTS -->
 - [About the Project](#-about-the-project)
